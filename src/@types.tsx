@@ -57,6 +57,12 @@ export interface ProfileInfoPropsType extends ProfileInfoType {
   };
 }
 
+export type ModalPropsType = {
+  children: React.ReactNode;
+  show: boolean;
+  onChange: (value: boolean) => void;
+};
+
 export type TogglePropsType = {
   value: boolean;
   onChange: (value: boolean) => void;
