@@ -4,7 +4,7 @@ export default function ({
   setShowModal: React.Dispatch<React.SetStateAction<boolean>>;
 }) {
   return (
-    <div className="p-8 rounded-3xl bg-[white] min-w-full [&>p]:mb-2">
+    <div className="p-8 rounded-3xl bg-[white] min-w-full [&>p]:mb-4 text-sm">
       <p>
         Hello. My name is Kingsley Okafor. Welcome to my task. So I believe it's
         important to talk about some decisions I made while I worked on this.

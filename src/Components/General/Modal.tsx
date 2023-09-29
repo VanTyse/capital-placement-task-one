@@ -11,7 +11,7 @@ export default function ({ children, show, onChange }: ModalPropsType) {
       onClick={() => onChange(false)}
     >
       <div
-        className="max-w-[500px] max-h-[90dvh] overflow-y-auto cursor-default"
+        className="max-w-[500px] max-h-[95dvh] overflow-y-auto cursor-default"
         onClick={(e) => e.stopPropagation()}
       >
         {children}
